@@ -8,6 +8,12 @@
 5. Once the application is up you can hit below api to get the response
 ``http://localhost:8080/weather/v1/forecast?zipcode=32061``
 
+### Open Api Documentation Link
+http://localhost:8080/weather/api-docs
+### Swagger ui Link
+http://localhost:8080/weather/swagger-ui/index.html
+
+
 ### Limitation
 1. This api can only take US zipcode. We can make it more flexible to use other params aqs well.
 2. This api accept zipcode and days which restrict the forecast to these days. Default value for days is 3.
